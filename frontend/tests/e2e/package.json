@@ -1,0 +1,12 @@
+{
+  "name": "JAPAN TIME E2E TEST",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "cypress run",
+    "test:debug": "cypress open",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "cypress": "^7.1.0"
+  }
+}
